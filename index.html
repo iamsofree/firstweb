@@ -1,17 +1,32 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="author" content="Li Chung Yan 李頌欣" />
     <meta name="description" content="A quirky webpage" />
-    <meta name="keywords" content="fun, personal, page" />
+    <meta name="keywords" content="I am always free af!!!!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello I am Li Chung Yan 李頌欣</title>
 
+    <!-- Open Graph Tags (For Facebook, LinkedIn, etc.) -->
+    <meta property="og:title" content="Hello, I am Li Chung Yan 李頌欣" />
+    <meta property="og:description" content="Check out my fun and quirky webpage!" />
+    <meta property="og:url" content="https://username.github.io/repositoryname/" />
+    <meta property="og:image" content="https://path-to-your-image.jpg" /> <!-- Replace with the image URL -->
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hello, I am Li Chung Yan 李頌欣" />
+    <meta name="twitter:description" content="Check out my fun and quirky webpage!" />
+    <meta name="twitter:image" content="https://path-to-your-image.jpg" /> <!-- Replace with the image URL -->
+    <meta name="twitter:url" content="https://username.github.io/repositoryname/" />
+
+    <!-- Your Styles -->
     <style>
       body {
-        background: linear-gradient(to bottom, red, orange, yellow, green, blue, indigo, violet);
+        background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
         font-family: Arial, sans-serif;
-        position: relative;
       }
 
       @font-face {
@@ -40,43 +55,8 @@
       .imgur-embed {
         text-align: center;
         margin: 30px auto;
-        position: relative;
-        border: 10px solid darkred;
-        padding: 10px;
-        border-radius: 20px;
-        box-shadow: 0px 0px 20px black;
-        background-color: #222;
-        width: 70%;
       }
 
-      .imgur-embed img {
-        max-width: 100%;
-        height: auto;
-        transition: transform 0.5s;
-      }
-
-      .imgur-embed:hover img {
-        transform: scale(0.9); /* Zoom-out effect */
-      }
-
-      /* Dracula Frame */
-      .imgur-embed:before {
-        content: '🦇';
-        position: absolute;
-        top: -20px;
-        left: -20px;
-        font-size: 40px;
-      }
-      
-      .imgur-embed:after {
-        content: '🧛‍♂️';
-        position: absolute;
-        top: -20px;
-        right: -20px;
-        font-size: 40px;
-      }
-
-      /* Hand pointer animation */
       .pointer {
         position: absolute;
         top: 50%;
@@ -116,56 +96,34 @@
         height: auto;
         margin: 10px;
       }
-
-      /* Add Halloween decorations */
-      .halloween {
-        text-align: center;
-        margin-top: 50px;
-      }
-
-      .halloween img {
-        width: 100px;
-        margin: 20px;
-      }
-
-      /* Make the page longer to show the Halloween decorations at the bottom */
-      .spacer {
-        height: 200px;
-      }
-
     </style>
   </head>
 
   <body>
     <h1>Hello, I am 李頌欣</h1>
-    <h2>Beware!!!!!! This person is crazy!!!!!</h2>
+    <h2>Here is something interesting :</h2>
 
     <!-- Direct Imgur image link -->
     <div class="imgur-embed">
-      <a href="https://lh3.googleusercontent.com/pw/AP1GczNUhVKm1tyTPIEPQN0mUNExvU9aLn88pvu9Tz25ytJL0mPmo2uZf9OzzTHjUW-yWFp5L2FJLf4yza9aUpkZGNnexp58Oc6ySdS-S85orTq1JsnwTq5m=w2400?source=screenshot.guru">
-        <img src="https://lh3.googleusercontent.com/pw/AP1GczNUhVKm1tyTPIEPQN0mUNExvU9aLn88pvu9Tz25ytJL0mPmo2uZf9OzzTHjUW-yWFp5L2FJLf4yza9aUpkZGNnexp58Oc6ySdS-S85orTq1JsnwTq5m=w600-h315-p-k" />
+      <a href="https://lh3.googleusercontent.com/pw/AP1GczNUhVKm1tyTPIEPQN0mUNExvU9aLn88pvu9Tz25ytJL0mPmo2uZf9OzzTHjUW-yWFp5L2FJLf4yza9aUpkZGNnexp58Oc6ySdS-S85orTq1JsnwTq5m=w2400?source=screenshot.guru"> 
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczNUhVKm1tyTPIEPQN0mUNExvU9aLn88pvu9Tz25ytJL0mPmo2uZf9OzzTHjUW-yWFp5L2FJLf4yza9aUpkZGNnexp58Oc6ySdS-S85orTq1JsnwTq5m=w600-h315-p-k" /> 
       </a>
     </div>
 
     <!-- Hand pointer animation -->
     <div class="pointer">👉</div>
 
-    
+    <p class="warning">     Beware!!!!!! This person is crazy!!!!!</p>
 
-    <!-- Poland, Ukraine, and Hong Kong flags centered -->
+    <!-- Flags centered -->
     <div class="flags">
       <img src="https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg" alt="Flag of Poland" class="flag" />
       <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg" alt="Flag of Ukraine" class="flag" />
       <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Flag_of_Hong_Kong.svg" alt="Flag of Hong Kong" class="flag" />
     </div>
 
-    <!-- Halloween decorations at the bottom -->
-    <div class="halloween">
-      <img src="https://cdn-icons-png.flaticon.com/512/827/827432.png" alt="Pumpkin">
-      <img src="https://cdn-icons-png.flaticon.com/512/696/696042.png" alt="Ghost">
-      <img src="https://cdn-icons-png.flaticon.com/512/632/632068.png" alt="Bat">
+    <div>
+      <p>I AM ALWAYS FREE AF!!!!</p>
     </div>
-
-    <div class="spacer"></div>
   </body>
 </html>
