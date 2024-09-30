@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Li Chung Yan 李頌欣" />
+    <meta name="description" content="A quirky webpage" />
+    <meta name="keywords" content="fun, personal, page" />
+    <title>Hello I am Li Chung Yan 李頌欣</title>
+
+    <style>
+      body {
+        background: linear-gradient(to bottom, red, orange, yellow, green, blue, indigo, violet);
+        font-family: Arial, sans-serif;
+        position: relative;
+      }
+
+      @font-face {
+        font-family: "GothicFont";
+        src: url("https://fonts.cdnfonts.com/s/19079/Gothic.ttf") format("truetype");
+      }
+
+      h1 {
+        font-family: "GothicFont", serif;
+        font-size: 60px;
+        color: black;
+        text-align: center;
+        text-shadow: 2px 2px #FF0000;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 28px;
+        font-style: italic;
+      }
+
+      p {
+        font-size: 24px;
+      }
+
+      .imgur-embed {
+        text-align: center;
+        margin: 30px auto;
+        position: relative;
+        border: 10px solid darkred;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px black;
+        background-color: #222;
+        width: 70%;
+      }
+
+      .imgur-embed img {
+        max-width: 100%;
+        height: auto;
+        transition: transform 0.5s;
+      }
+
+      .imgur-embed:hover img {
+        transform: scale(0.9); /* Zoom-out effect */
+      }
+
+      /* Dracula Frame */
+      .imgur-embed:before {
+        content: '🦇';
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        font-size: 40px;
+      }
+      
+      .imgur-embed:after {
+        content: '🧛‍♂️';
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        font-size: 40px;
+      }
+
+      /* Hand pointer animation */
+      .pointer {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        font-size: 50px;
+        color: red;
+        animation: pointer 1s infinite;
+      }
+
+      @keyframes pointer {
+        0% {
+          transform: translate(0, 0);
+        }
+        50% {
+          transform: translate(10px, 0);
+        }
+        100% {
+          transform: translate(0, 0);
+        }
+      }
+
+      .warning {
+        color: red;
+        font-size: 28px;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 20px;
+      }
+
+      .flags {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .flag {
+        width: 150px;
+        height: auto;
+        margin: 10px;
+      }
+
+      /* Add Halloween decorations */
+      .halloween {
+        text-align: center;
+        margin-top: 50px;
+      }
+
+      .halloween img {
+        width: 100px;
+        margin: 20px;
+      }
+
+      /* Make the page longer to show the Halloween decorations at the bottom */
+      .spacer {
+        height: 200px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <h1>Hello, I am 李頌欣</h1>
+    <h2>Beware!!!!!! This person is crazy!!!!!</h2>
+
+    <!-- Direct Imgur image link -->
+    <div class="imgur-embed">
+      <a href="https://lh3.googleusercontent.com/pw/AP1GczNUhVKm1tyTPIEPQN0mUNExvU9aLn88pvu9Tz25ytJL0mPmo2uZf9OzzTHjUW-yWFp5L2FJLf4yza9aUpkZGNnexp58Oc6ySdS-S85orTq1JsnwTq5m=w2400?source=screenshot.guru">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczNUhVKm1tyTPIEPQN0mUNExvU9aLn88pvu9Tz25ytJL0mPmo2uZf9OzzTHjUW-yWFp5L2FJLf4yza9aUpkZGNnexp58Oc6ySdS-S85orTq1JsnwTq5m=w600-h315-p-k" />
+      </a>
+    </div>
+
+    <!-- Hand pointer animation -->
+    <div class="pointer">👉</div>
+
+    
+
+    <!-- Poland, Ukraine, and Hong Kong flags centered -->
+    <div class="flags">
+      <img src="https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg" alt="Flag of Poland" class="flag" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg" alt="Flag of Ukraine" class="flag" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Flag_of_Hong_Kong.svg" alt="Flag of Hong Kong" class="flag" />
+    </div>
+
+    <!-- Halloween decorations at the bottom -->
+    <div class="halloween">
+      <img src="https://cdn-icons-png.flaticon.com/512/827/827432.png" alt="Pumpkin">
+      <img src="https://cdn-icons-png.flaticon.com/512/696/696042.png" alt="Ghost">
+      <img src="https://cdn-icons-png.flaticon.com/512/632/632068.png" alt="Bat">
+    </div>
+
+    <div class="spacer"></div>
+  </body>
+</html>
